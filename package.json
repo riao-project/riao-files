@@ -1,7 +1,7 @@
 {
-	"name": "{{project-name}}",
+	"name": "riao-files",
 	"version": "1.0.0",
-	"description": "{{project-name}}",
+	"description": "riao-files",
 	"private": "true",
 	"typescript-template": {
 		"base": "1.0.1",
@@ -41,13 +41,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/{{project-org}}/{{project-name}}.git"
+		"url": "git+https://github.com/riao-files/riao-files.git"
 	},
-	"author": "{{project-org}}",
+	"author": "riao-files",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/{{project-org}}/{{project-name}}/issues"
+		"url": "https://github.com/riao-files/riao-files/issues"
 	},
-	"homepage": "https://github.com/{{project-org}}/{{project-name}}#readme",
+	"homepage": "https://github.com/riao-files/riao-files#readme",
 	"keywords": []
 }
