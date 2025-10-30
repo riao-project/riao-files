@@ -5,7 +5,7 @@ Save and load files from your application, with the power of typescript, sql and
 ## Features
 
 - **SQLite File Management**: Create and manage SQLite files with a simple, object-oriented interface
-- **Automated Migrations**: Built-in migration system to handle files schema changes
+- **Automated Migrations**: Built-in migration system to handle file schema changes
 - **Type Safety**: Full TypeScript support with type-safe database operations
 - **Directory Creation**: Automatically creates necessary directories for database files
 - **Extensible**: Abstract base class allows for custom file implementations with specific schemas
