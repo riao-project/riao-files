@@ -1,7 +1,7 @@
 {
-	"name": "riao-files",
+	"name": "@riao/files",
 	"version": "1.0.0",
-	"description": "riao-files",
+	"description": "save & load files from your application, with the power of sql and riao.",
 	"private": "true",
 	"typescript-template": {
 		"base": "1.0.1",
@@ -20,6 +20,10 @@
 		"lint:prod": "npm run lint -- --config=.eslintrc.prod.json",
 		"script": "ts-node scripts",
 		"publish": "npm run script -- publish"
+	},
+	"dependencies": {
+		"@riao/dbal": "^3.7.0",
+		"@riao/sqlite": "^3.4.0"
 	},
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "^1.0.2",
@@ -49,5 +53,19 @@
 		"url": "https://github.com/riao-files/riao-files/issues"
 	},
 	"homepage": "https://github.com/riao-files/riao-files#readme",
-	"keywords": []
+	"keywords": [
+		"riao",
+		"database",
+		"dbal",
+		"sqlite",
+		"file",
+		"files",
+		"filesystem",
+		"save",
+		"load",
+		"storage",
+		"typescript",
+		"migration",
+		"orm"
+	]
 }
