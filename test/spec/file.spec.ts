@@ -3,8 +3,8 @@ import { TestFile } from '../test-file';
 
 describe('File', () => {
 	beforeAll(() => {
-		rmSync('./test/fs/new-file.db');
-		rmSync('./test/fs/save-load-file.db');
+		rmSync('./test/fs/new-file.db', { force: true });
+		rmSync('./test/fs/save-load-file.db', { force: true });
 	});
 
 	it('can load from an existing file', async () => {
