@@ -1,1 +1,1 @@
-export const a = true;
+export { File, FileOptions } from './file';
